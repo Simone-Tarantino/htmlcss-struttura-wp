@@ -61,7 +61,20 @@ footer {
   background-color: purple;
 }
 
+.margin-bot {
+  margin-bottom: 10px;
+}
+
 .col-right {
   width: 20%;
   background-color: lightblue;
+}
+.col-right-top {
+  background-color: pink;
+}
+.col-right-mid {
+  background-color: lightgreen;
+}
+.col-right-bot {
+  background-color: gray;
 }
