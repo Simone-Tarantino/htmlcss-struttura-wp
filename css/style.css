@@ -8,8 +8,16 @@
   float: left;
 }
 
+.radius {
+  border-radius: 5px;
+}
+
+.margin-bot {
+  margin-bottom: 30px;
+}
+
 body {
-  width: 65%;
+  width: 60%;
   margin: auto;
   background-image: url("../img/background.png");
   background-repeat: repeat;
@@ -26,18 +34,20 @@ main {
   margin: 10px 0 20px;
   content: "";
   display: table;
-  clear: both;
-  background-color: blue;
 }
 
 footer {
-  height: 100px;
-  background-color: green;
+  position: relative;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
 }
 
 .logo-box {
   height: 85%;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: white;
 }
 
@@ -60,36 +70,89 @@ footer {
   transform: translate(-50%, -50%);
 }
 .navbar li {
-  padding: 0 10px;
+  padding: 0 5px;
   display: inline-block;
   list-style: none;
+  color: #939393;
+}
+.navbar li:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .col-left {
   width: 20%;
-  background-color: orange;
+  background-color: white;
 }
 
 .col-middle {
   width: 50%;
   margin: 0 5%;
-  background-color: purple;
-}
-
-.margin-bot {
-  margin-bottom: 10px;
+  background-color: white;
 }
 
 .col-right {
   width: 20%;
-  background-color: lightblue;
 }
 .col-right-top {
-  background-color: pink;
+  background-color: white;
 }
 .col-right-mid {
-  background-color: lightgreen;
+  background-color: white;
 }
 .col-right-bot {
-  background-color: gray;
+  background-color: white;
+}
+
+.credits {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  font-style: italic;
+  color: #b1b1b1;
+}
+
+hr {
+  color: white;
+}
+
+.social {
+  position: relative;
+  height: 180px;
+  width: 100%;
+  font-size: 50px;
+  color: #b1b1b1;
+}
+
+.icon-right {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 180px;
+  width: 33%;
+}
+
+.icon-mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  height: 180px;
+  width: 33%;
+}
+
+.icon-left {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 180px;
+  width: 33%;
+}
+
+.social i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
