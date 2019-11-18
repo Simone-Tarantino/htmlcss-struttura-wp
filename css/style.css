@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  height: 300px;
+  margin-top: 20px;
+  background-color: red;
+}
+
+main {
+  height: 300px;
+  background-color: blue;
+}
+
+footer {
+  height: 100px;
+  background-color: green;
+}
+
+.logo-box {
+  height: 80%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.logo {
+  height:calc(100% - 20px);
+  background-color: black;
+  margin: 10px;
+}
